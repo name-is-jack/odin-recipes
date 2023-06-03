@@ -1,9 +1,34 @@
 body {
     background-color: lightgray;
     font-family: sans-serif;
+    text-align: center;
 }
 
 h1 {
     font-size: 40px;
     font-weight: 700;
+    text-align: center;
+}
+
+.pic {
+   width: auto;
+   height: 400px;
+   margin: auto;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+.ingredients, .steps {
+    border: solid 2px rgb(0,0,0,.5);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.ingredients {
+    margin-bottom: 20px;
 }
