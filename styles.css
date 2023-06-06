@@ -8,6 +8,7 @@ h1 {
     font-size: 40px;
     font-weight: 700;
     text-align: center;
+    margin: auto;
 }
 
 .pic {
@@ -21,14 +22,28 @@ h1 {
 
 ul, ol {
     list-style-type: none;
+    
 }
 
 .ingredients, .steps {
     border: solid 2px rgb(0,0,0,.5);
     padding: 20px;
     border-radius: 4px;
+    display: inline-block;
+    width: 500px;
+    margin-top: auto;
 }
 
 .ingredients {
     margin-bottom: 20px;
+}
+
+h2 {
+    margin-left: 35px;
+}
+
+.desc-info{
+    width: 400px;
+    border: solid 2px rgb(0,0,0,.5);
+    border-radius: 4px;
 }
